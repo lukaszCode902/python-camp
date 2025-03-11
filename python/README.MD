@@ -11,6 +11,8 @@ Ważne: "" albo '' - "Piszę sobie tutaj jakiś tekst, który będę chciał wy�
 
 Spis wszystkich metod jakie są dostępne na typie danych string (metody wbudowane oraz opis ich użycia)
 
+# https://www.w3schools.com/python/python_ref_string.asp
+
 # https://www.w3schools.com/python/python_numbers.asp
 
 Typy numeryczne: int, float, complex
