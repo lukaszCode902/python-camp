@@ -17,8 +17,8 @@ z2 = text[58:65]
 # Utwórz zmienną tekst = "python to fajny język" i zmień tylko pierwszą literę na wielką.
 # 💡 Podpowiedź: Poszukaj metody, która zmienia wielkość pierwszej litery.
 
-text = "python to fajny język"
-print(text.capitalize())
+tekst = "python to fajny język"
+print(tekst.capitalize())
 
 # Zamiana wszystkich znaków na małe
 # Zadeklaruj zmienną wiadomosc = "PYTHON JEST ŚWIETNY!" i zamień wszystkie litery na małe.
