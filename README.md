@@ -1,3 +1,3 @@
 # python-camp
 
-## NAUKA JĘZYKA PYTHON
+## NAUKA JĘZYKA PYTHON ALA MA KOTA
