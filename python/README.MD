@@ -1,0 +1,2 @@
+- Każdy plik w python ma rozszerzenie .py (standard)
+- Aby uruchomić kod zawarty w danym pliku, używamy słowa kluczowego (operator) "python" a następnie podajemy ściezkę do pliku.
