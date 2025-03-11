@@ -9,6 +9,8 @@ Typ tekstu: str (oznacza z ang "String". - tekst)
 
 Ważne: "" albo '' - "Piszę sobie tutaj jakiś tekst, który będę chciał wyświetlić na stronie.. dodatkowo chciałbym zawrzeć tutaj pewien cytat typu 'Ala ma kota'."
 
+Spis wszystkich metod jakie są dostępne na typie danych string (metody wbudowane oraz opis ich użycia)
+
 # https://www.w3schools.com/python/python_numbers.asp
 
 Typy numeryczne: int, float, complex
