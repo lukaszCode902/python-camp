@@ -19,3 +19,7 @@ age = "30"
 # Metody jakich możemy uzywać na typie danych string.
 newDescription = description[0:5]
 print(newDescription)
+
+
+# Nauka kolejnych typów danych
+
