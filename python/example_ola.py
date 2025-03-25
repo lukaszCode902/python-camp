@@ -90,41 +90,69 @@
 
 # Zmiana wielkości liter
 # Napisz funkcję capitalize_words(s), która zwraca string, gdzie każde słowo zaczyna się wielką literą.
-
-
 # capitalize_words("hello world")  
+
+def capitalize_words(s):
+	print(s.capitalize())
+capitalize_words("hello world")
+
 # Zliczanie długości stringa
 # Stwórz funkcję string_length(s), która zwraca długość podanego stringa.
-
-
-
 # string_length("Python")  # Output: 6
+
+def string_length(s):
+	s = len(s)
+	print(s)
+string_length("Python")
+
 # Zamiana liczby na string
 # Napisz funkcję number_to_string(n), która zamienia liczbę na string.
-
-
 # number_to_string(123)  # Output: "123"
+
+def number_to_string(n):
+    print(str(n))
+number_to_string(123)
+
 # Sprawdzenie czy string jest palindromem
 # Stwórz funkcję is_palindrome(s), która zwraca True, jeśli string jest palindromem.
-
-
 # is_palindrome("kajak")  # Output: True
+
+def is_palindrome(s):
+	#nie wiem jaką funkcję tutaj wstawić
+	print() 
+is_palindrome("kajak")
+
 # Suma liczb w liście
 # Napisz funkcję sum_list(lst), która zwraca sumę wszystkich liczb w liście.
-
-
 # sum_list([1, 2, 3, 4])  # Output: 10
+
+def sum_list(lst):
+	print(sum(lst))
+sum_list([1, 2, 3, 4])
+
 # Sortowanie listy w kolejności rosnącej
 # Stwórz funkcję sort_list(lst), która sortuje listę i zwraca ją w kolejności rosnącej.
-
-
 # sort_list([4, 1, 3, 2]) 
+
+def sort_list(lst):
+	lst.sort()
+	print(lst)
+sort_list([4, 1, 3, 2])
+
 # Odwrócenie listy
 # Napisz funkcję reverse_list(lst), która zwraca listę w odwrotnej kolejności.
-
-
 # reverse_list([1, 2, 3])  # Output: [3, 2, 1]
+
+def reverse_list(lst):
+	lst.reverse()
+	print(lst)  
+reverse_list([1, 2, 3])
+
 # Zamiana pierwszej i ostatniej wartości w liście
 # Stwórz funkcję swap_first_last(lst), która zamienia miejscami pierwszy i ostatni element listy.
-
 # swap_first_last([1, 2, 3, 4]) 
+
+def swap_first_last(lst):
+	#nie wiem jaką funkcję tutaj wstawić
+    print() 
+swap_first_last([1, 2, 3, 4])
