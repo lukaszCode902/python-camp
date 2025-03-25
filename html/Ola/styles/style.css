@@ -1,0 +1,15 @@
+table {
+  font-family: calibri, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td,
+th {
+  border: 2px solid #000000;
+  padding: 10px;
+}
+
+tr {
+  background-color: #ffd9ff;
+}
