@@ -18,3 +18,9 @@ tr {
   margin: 0;
   padding: 0;
 }
+.bg_blue {
+  background-color: #b2d4f4;  
+}
+.bg_dark {
+  background-color: #fd31fd;
+}
