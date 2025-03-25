@@ -1,0 +1,57 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.flex-container > div {
+  /* Obliczamy szerokość: (100% - (5 * gap między elementami)) / 6 elementów */
+  flex-basis: calc((100% - 50px) / 6);
+  height: 100px;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.flex-container > div:hover {
+  transform: scale(1.05);
+  background-color: #2980b9;
+}
+
+/* Zapewniamy, że elementy będą miały odpowiednią szerokość na mniejszych ekranach */
+@media (max-width: 1200px) {
+  .flex-container > div {
+    flex-basis: calc((100% - 40px) / 5);
+  }
+}
+
+@media (max-width: 992px) {
+  .flex-container > div {
+    flex-basis: calc((100% - 30px) / 4);
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-container > div {
+    flex-basis: calc((100% - 20px) / 3);
+  }
+}
+
+@media (max-width: 576px) {
+  .flex-container > div {
+    flex-basis: calc((100% - 10px) / 2);
+  }
+}
+
+@media (max-width: 400px) {
+  .flex-container > div {
+    flex-basis: 100%;
+  }
+}
