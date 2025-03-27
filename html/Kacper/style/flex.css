@@ -1,22 +1,17 @@
 .flex-container {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   padding: 20px;
-  justify-content: center;
 }
 
 .flex-container > div {
-  /* Obliczamy szerokość: (100% - (5 * gap między elementami)) / 6 elementów */
-  flex-basis: calc((100% - 50px) / 6);
   height: 100px;
   background-color: #3498db;
   color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 24px;
   border-radius: 5px;
+  width: 60px;
   transition: transform 0.3s ease;
 }
 
