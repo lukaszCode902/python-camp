@@ -1,0 +1,21 @@
+.container{
+    background-color: lightcoral;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    padding: 10px;
+}
+.container > div{
+    background-color: lightpink;
+    text-align: center;
+    padding: 30px;
+}
+.header{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
